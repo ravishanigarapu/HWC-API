@@ -36,6 +36,16 @@ public class WrapperBenInvestigationANC {
 
 	private Integer vanID;
 	private Integer parkingPlaceID;
+	
+	private String[] counsellingProvidedList;
+
+	public String[] getCounsellingProvidedList() {
+		return counsellingProvidedList;
+	}
+
+	public void setCounsellingProvidedList(String[] counsellingProvidedList) {
+		this.counsellingProvidedList = counsellingProvidedList;
+	}
 
 	private ArrayList<LabTestOrderDetail> laboratoryList;
 
